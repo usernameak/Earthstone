@@ -54,7 +54,11 @@ Block.BackStone = function() {
 }
 
 Block.RootStone = function() {
+<<<<<<< HEAD
 	this.types = ["rootstone", "render_normal", "unminable"]
+=======
+	this.types = ["rootstone", "render_normal", "unminable"];
+>>>>>>> master
 	this.texture = Textures.rootstone;
 }
 
@@ -179,4 +183,8 @@ var Textures = {
 }
 var world = new World();
 world.generate(new Date().getTime());
+<<<<<<< HEAD
 requestAnimationFrame(updateScreen);
+=======
+requestAnimationFrame(updateScreen);
+>>>>>>> master
